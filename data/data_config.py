@@ -1,0 +1,16 @@
+import librosa
+
+#Konstante
+SAMPLE_RATE    = 16000
+SAMPLE_LENGTH  = 512
+HOP_LENGTH     = 256 #512
+CONTEXT_LENGTH = 0
+TRUTH_TRESHOLD = 64
+
+#Behebt Probleme bei CNNs
+MAX_FRAMES     = 2000
+SPEECH_RATIO   = 2
+
+BATCH_SIZE     = 4
+VAL_BATCH_SIZE = 4
+#VAL_BATCH_SIZE = 1
